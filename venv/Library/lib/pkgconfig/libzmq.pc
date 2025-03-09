@@ -1,0 +1,12 @@
+prefix=c:/Users/Uditya/Documents/GitHub/Python_For_Machine_learing/venv/Library
+exec_prefix=c:/Users/Uditya/Documents/GitHub/Python_For_Machine_learing/venv/Library
+libdir=c:/Users/Uditya/Documents/GitHub/Python_For_Machine_learing/venv/Library/lib
+includedir=c:/Users/Uditya/Documents/GitHub/Python_For_Machine_learing/venv/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
